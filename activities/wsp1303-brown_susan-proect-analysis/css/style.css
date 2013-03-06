@@ -1,13 +1,15 @@
 html{
-	background: #2D2D2F;
+	background: #181819;
 }
 
 body{
 	width: 700px;
-	font: 14px/1.5 helvetica, sans-serif;
+	font: 12px/1.5 helvetica, sans-serif;
 	color: #FAF1D5;
-	padding: 0 20px;
+	padding: 10px 20px 20px;
 	margin: 0 auto;
+	background: #2D2D2F;
+	border: 1px solid #000;
 }
 
 h1{
@@ -34,11 +36,20 @@ h3{
 }
 
 
-ul{
-	border-top: 1px solid #666;
+.intent{
+	clear: both;
 }
 
 
-.intent{
-	clear: both;
+.head{
+	list-style: none;
+}
+
+.heading{
+	font-weight: bold;
+	color: #AFD687;
+}
+
+h2{
+	border-bottom: 1px solid #666;
 }
