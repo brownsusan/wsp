@@ -1,0 +1,44 @@
+html{
+	background: #2D2D2F;
+}
+
+body{
+	width: 700px;
+	font: 14px/1.5 helvetica, sans-serif;
+	color: #FAF1D5;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+h1{
+	color: #FFE9C7;
+	font-weight: normal;
+}
+
+h2{
+	color: #5C8A2D;
+	font-weight: normal;
+}
+
+h3{
+	color: #AFD687;
+	font-weight: normal;
+}
+
+
+.discovery{
+	width: 220px;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+}
+
+
+ul{
+	border-top: 1px solid #666;
+}
+
+
+.intent{
+	clear: both;
+}
