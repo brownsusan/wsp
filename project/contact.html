@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Insert Title Here</title>
+		<title>Casa Guacamole | Contact Us</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="stylesheets/base.css">
 		<link rel="stylesheet" href="stylesheets/skeleton.css">
@@ -14,16 +14,30 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Accomadations</a></li>
-				<li><a href="#">Services &amp; Features</a></li>
-				<li><a href="#">Photo Gallery</a></li>
-				<li><a href="#">Rates &amp; Reservations</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">Accomadations</a></li>
+				<li><a href="services.html">Services &amp; Features</a></li>
+				<li><a href="gallery.html">Photo Gallery</a></li>
+				<li><a href="reservations.html">Rates &amp; Reservations</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
 		</nav>
 		
 		<article>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" autofocus= “autofocus” required= "required"/>
+				</br>
+				<label for="email">Email Address:</label>
+				<input type="email" name="email_address" id="email" placeholder="ex: JohnDoe@domain.com" required= "required"/>
+				</br>
+				<label for="phone">Telephone Number</label>
+				<input type="tel" name= "phone" id="phone" placeholder="ex: 248-555-1212"/>
+				</br>
+				<label for="message">Message:</label>
+				<textarea name="message" id="message" rows="10" cols="55" placeholder="">Type your message here... </textarea>
+				</br>
+			</form>
 		</article>
 		
 		<footer>
