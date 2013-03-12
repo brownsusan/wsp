@@ -46,7 +46,13 @@
 				<label for="zip">Zip Code:</label>
 				<input type="text" name="zip_code" id="zip"/>
 				<label for="sub">Subject:</label>
-				<input type="text" name="subject" id="sub"/>
+				<select name= "subject" id="sub">
+				<option value="choose">Select...</option>
+				<option value="reservation">Reservation</option>
+				<option value="testimonial">Testimonial</option>
+				<option value="general inquiry">General Inquiry</option>
+				<option value="other">Other</option>
+				</select>
 				<label for="message">Message:</label>
 				<textarea name="message" id="message" rows="10" cols="55" placeholder="Type your message here..."> </textarea>
 				<input type="submit" value="Send" />
