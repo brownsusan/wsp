@@ -3,17 +3,21 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Rates | Casa Guacamole</title>
-		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/skeleton.css">
 		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" href="css/style.css">
+		
+		<!- webfonts -!>
+		<link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+		
 	</head>
 	<body>
 		<header>
 			<h1><a href="#">Casa Guacamole</a></h1>
-			
-			<p>P: (917) 743-9877</p>
-			<a href="contact.html">Contact Us</a>
+			<div id="contact">
+				<p>P: (917) 743-9877</p>
+				<a href="contact.html">Contact Us</a>
+			</div>
 		</header>
 		<nav>
 			<ul>
@@ -21,28 +25,37 @@
 				<li><a href="accommodations.html">Accommodations</a></li>
 				<li><a href="rates.html">Rates</a></li>
 				<li><a href="contact.html">Reservations</a></li>
-				<li><a href="gallery.html">gallery</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
 				<li><a href="testimonials.html">Testimonials</a></li>
 			</ul>
 		</nav>
 		
-		<img src="img/bedroom_7.jpg" alt="Photo of a bedroom.">
+		
 		<h2>Rates</h2>
-		<table>
-			<caption>Rates for Casa Guacamole.</caption>
-			<thead><th>Season</th><th>Dates</th><th>Price (US Dollars)</th><th>Minimum</th></thead>
-			<tr><td>Low Season</td><td>May 1<sup>st</sup> - October 31<sup>st</sup></td><td>&dollar;400 per night (&plus; tax)</td><td>5 nights</td></tr>
-			<tr><td>High Season</td><td>November 1<sup>st</sup> - April 30<sup>st</sup></td><td>&dollar;500 per night (&plus; tax)</td><td>5 nights</td></tr>
-			<tfoot><tr><td>Holidays</td><td>Easter, Thanksgiving, Christmas, New Years</td><td>&dollar;700 per night (&plus; tax)</td><td>7 nights</td></tr></tfoot>
-		</table>
-		<p>Note: Until confirmed, rates are subject to change without notice.</p>
+		<img class="main_img" src="img/bedroom_7.jpg" alt="Photo of a bedroom.">
 		
-		<aside>
-			<a href="https://www.homeawayconnect.com/calendar.aspx?propertyid=318334"><img src="img/calendar  .png"></a>
-			<a href="https://www.homeawayconnect.com/calendar.aspx?propertyid=318334">Check calendar for available dates.</a>
-		</aside>
+		<div class="container">
+			<article class="two-thirds column alpha" >
+			<table>
+				<caption>Rates for Casa Guacamole.</caption>
+				<thead><th>Season</th><th>Dates</th><th>Price (US Dollars)</th><th>Minimum</th></thead>
+				<tr><td>Low Season</td><td>May 1<sup>st</sup> - October 31<sup>st</sup></td><td>&dollar;400 per night (&plus; tax)</td><td>5 nights</td></tr>
+				<tr><td>High Season</td><td>November 1<sup>st</sup> - April 30<sup>st</sup></td><td>&dollar;500 per night (&plus; tax)</td><td>5 nights</td></tr>
+				<tfoot><tr><td>Holidays</td><td>Easter, Thanksgiving, Christmas, New Years</td><td>&dollar;700 per night (&plus; tax)</td><td>7 nights</td></tr></tfoot>
+			</table>
+			<p>Note: Until confirmed, rates are subject to change without notice.</p>
+			</article>
+			
+			
+			<aside class="one-third column omega">
+				<a href="https://www.homeawayconnect.com/calendar.aspx?propertyid=318334"><img src="img/calendar.png"</a>
+				<a href="https://www.homeawayconnect.com/calendar.aspx?propertyid=318334">Check calendar for available dates.</a>
+				<a href="contact.html">Click here to request a reservation.</a>
+			</aside>
+		</div>
 		
-		<a href="contact.html">Click here to request a reservation.</a>
+		
+		
 		
 		<footer>
 			<p>&copy; Copyright 2013 Casa Gucamole. All rights reserved.</p>

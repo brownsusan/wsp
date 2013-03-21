@@ -3,17 +3,21 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Contact Us | Casa Guacamole</title>
-		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/skeleton.css">
 		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" href="css/style.css">
+		
+		
+		<!- webfonts -!>
+		<link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<header>
 			<h1><a href="#">Casa Guacamole</a></h1>
-			
-			<p>P: (917) 743-9877</p>
-			<a href="contact.html">Contact Us</a>
+			<div id="contact">
+				<p>P: (917) 743-9877</p>
+				<a href="contact.html">Contact Us</a>
+			</div>
 		</header>
 		<nav>
 			<ul>
@@ -21,18 +25,20 @@
 				<li><a href="accommodations.html">Accommodations</a></li>
 				<li><a href="rates.html">Rates</a></li>
 				<li><a href="contact.html">Reservations</a></li>
-				<li><a href="gallery.html">gallery</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
 				<li><a href="testimonials.html">Testimonials</a></li>
 			</ul>
 		</nav>
 		
 		
 		<h2>Contact us</h2>
+		<img class="main_img" src="img/bedroom_7.jpg" alt="Photo of a bedroom.">
 		<p>To request a reservation or additional information, please fill out the contact form below.</br>
 			You can also reach us by telephone at:</br>
 			U.S (917) 743-9877</p>
 		<article>
 			<form>
+			<fieldset class="form">
 				<label for="name">Your Name:</label>
 				<input type="text" name="name" id="name" autofocus= “autofocus” required= "required"/>
 				<label for="email">Your Email Address:</label>
@@ -45,6 +51,9 @@
 				<input type="text" name="address_line_2" id="unit_number"/>
 				<label for="zip">Zip Code:</label>
 				<input type="text" name="zip_code" id="zip"/>
+			</fieldset>
+				
+			<fieldset class="msg">
 				<label for="sub">Subject:</label>
 				<select name= "subject" id="sub">
 				<option value="choose">Select...</option>
@@ -56,6 +65,7 @@
 				<label for="message">Message:</label>
 				<textarea name="message" id="message" rows="10" cols="55">Type your message here... </textarea>
 				<input type="submit" value="Send" />
+			</fieldset>
 			</form>
 		</article>
 		

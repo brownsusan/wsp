@@ -4,3 +4,186 @@
 
 /*----------------- END RESET ---------------*/
 
+/*-------------------- color palette---------------
+			light green: #b3c29b;
+			green: #99c258;
+			dark green: #458a33;
+			
+			
+			light gray: #4d4d4d; (active state in nav)
+			dark gray: #333; (fonts)
+			
+			
+			off-white: #f2efdf;
+			dark off-white: #f2eccb; (footer)
+			light orange: #ffbf75;
+			orange: #ff950d;
+-------------------------------------------------*/
+
+
+
+
+body{
+	width: 960px;
+	margin: 0 auto;
+	background: none;
+}
+
+html{
+	font-family: georgia, 'Gilda Display', serif;
+	color: #333;
+	background: url(../img/black-linen_@2X3.png) repeat-x #f2efdf;
+}
+
+/*--------------------- nav -------------------*/
+nav ul{
+	list-style: none;
+}
+
+
+nav li{
+	float: left;
+	margin-right: 40px;
+}
+
+nav a{
+	display: block;
+	padding: 10px 20px;
+	color: #99c258;
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: #99c258;
+}
+
+nav a:active{
+	color: #b3c29b;
+}
+
+
+/*------------------ header --------------------*/
+h1{
+	clear: both;
+	float: left;
+}
+
+
+h2{
+	clear: both;
+}
+
+
+h1 a .logo{
+	display: block;
+	white-space: nowrap;
+	text-indent: -100%;
+	background: url(../img/logo.png);
+}
+
+header #contact{
+	float: right;
+	width: 140px;
+	text-align: right;
+}
+
+header{
+	width: 960px;
+	overflow: hidden;
+}
+
+.main_img{
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	max-width: 100%;
+}	
+
+
+/*------------------ button --------------------*/
+
+
+
+
+
+/*------------------ table --------------------*/
+
+
+
+
+
+
+
+/*------------------ form --------------------*/
+	form {
+		margin-bottom: 20px; }
+
+	input,
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #333;
+		margin: 0;
+		width: 40%;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label{
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  
+		color: #99c258;}
+
+	select {
+		width: 40%; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+
+fieldset .form{
+	float: right;
+	width: 100%
+}	
+	
+fieldset .msg{
+	float: left;
+	width: 100%
+}
+
+
+
+
+
+/*------------------ footer --------------------*/
+
+footer{
+	clear: both;
+	background-color: #f2eccb;
+	width: 100%;
+	font-size: 12px;
+}
