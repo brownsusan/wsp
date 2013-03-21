@@ -21,8 +21,6 @@
 -------------------------------------------------*/
 
 
-
-
 body{
 	width: 960px;
 	margin: 0 auto;
@@ -30,7 +28,7 @@ body{
 }
 
 html{
-	font-family: georgia, 'Gilda Display', serif;
+	font: 16px/1.5 georgia, 'Gilda Display', serif;
 	color: #333;
 	background: url(../img/black-linen_@2X3.png) repeat-x #f2efdf;
 }
@@ -43,12 +41,12 @@ nav ul{
 
 nav li{
 	float: left;
-	margin-right: 40px;
+	margin-right: 4.166666666667%; /*40px /960 */
 }
 
 nav a{
 	display: block;
-	padding: 10px 20px;
+	padding: 10px 20px; /*10px 20px/960*/
 	color: #99c258;
 	text-decoration: none;
 }
@@ -66,41 +64,40 @@ nav a:active{
 h1{
 	clear: both;
 	float: left;
-}
-
-
-h2{
-	clear: both;
-}
-
-
-h1 #casa_guacamole a{
-	display: block;
 	white-space: nowrap;
-	text-indent: -100%;
-	background: url(../img/logo.png);
-	width: 305px;
-	height: 100px;
+	text-indent: -200%;
+	width: 25.9375%;
+	height: 72px;
+}
+
+
+h1 a{
+		background: url(../img/logo.png) no-repeat;
+		display: block;
+		width: 100%;
+		height: 100%;
 }
 
 header #contact{
 	float: right;
-	width: 140px;
+	width: 14.583333333333%; /* 140/960px */
 	text-align: right;
 }
 
 header{
-	width: 960px;
+	width: 100%;
 	overflow: hidden;
 }
 
 .main_img{
 	display: block;
 	margin: 0 auto;
-	width: 900px;
 	max-width: 100%;
-}	
+}
 
+h2{
+	clear: both;
+}
 
 /*------------------ button --------------------*/
 
@@ -117,54 +114,52 @@ header{
 
 
 /*------------------ form --------------------*/
-	form {
-		margin-bottom: 20px; }
+form {
+	margin-bottom: 20px; }
 
-	input,
-	textarea,
-	select {
-		border: 1px solid #ccc;
-		padding: 6px 4px;
-		outline: none;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #333;
-		margin: 0;
-		width: 90%;
-		max-width: 100%;
-		display: block;
-		margin-bottom: 20px;
-		background: #fff; }
-	select {
-		padding: 0; }
-	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input[type="email"]:focus,
-	textarea:focus {
-		border: 1px solid #aaa;
- 		color: #444;
- 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
-		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
-		box-shadow:  0 0 3px rgba(0,0,0,.2); }
-	textarea {
-		min-height: 60px; }
-	label{
-		display: block;
-		font-weight: bold;
-		font-size: 13px;  
-		color: #99c258;}
+input,
+textarea,
+select {
+	border: 1px solid #ccc;
+	padding: 6px 4px;
+	outline: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	margin: 0;
+	width: 90%;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	background: #fff; }
+select {
+	padding: 0; }
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #aaa;
+		color: #444;
+		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	box-shadow:  0 0 3px rgba(0,0,0,.2); }
+label{
+	display: block;
+	font-weight: bold;
+	font-size: 13px;  
+	color: #99c258;}
 
-	select {
-		width: 90%; }
-	input[type="checkbox"] {
-		display: inline; }
-	label span,
-	legend span {
-		font-weight: normal;
-		font-size: 13px;
-		color: #444; }
+select {
+	width: 90%; }
+input[type="checkbox"] {
+	display: inline; }
+label span,
+legend span {
+	font-weight: normal;
+	font-size: 13px;
+	color: #444; }
 
 
 fieldset .form{
