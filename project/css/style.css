@@ -4,6 +4,9 @@
 
 /*----------------- END RESET ---------------*/
 
+
+
+
 /*-------------------- color palette---------------
 			light green: #b3c29b;
 			green: #99c258;
@@ -19,10 +22,12 @@
 			light orange: #ffbf75;
 			orange: #ff950d;
 -------------------------------------------------*/
-
+img, iframe{
+	max-width: 100%
+}
 
 body{
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	background: none;
 }
@@ -36,17 +41,23 @@ html{
 /*--------------------- nav -------------------*/
 nav ul{
 	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 93.75%;
 }
 
 
 nav li{
 	float: left;
-	margin-right: 4.166666666667%; /*40px /960 */
+	margin-left: 4.166666666667%; /*40px /960 */
 }
-
+ nav li:first-child{
+	 margin-left: 0;
+ }
+ 
 nav a{
 	display: block;
-	padding: 10px 20px; /*10px 20px/960*/
+	padding: 10px 17%; /*10px 20px/960*/
 	color: #99c258;
 	text-decoration: none;
 }
@@ -66,21 +77,21 @@ h1{
 	float: left;
 	white-space: nowrap;
 	text-indent: -200%;
-	width: 25.9375%;
+	width: 249px;
 	height: 72px;
 }
 
 
 h1 a{
-		background: url(../img/logo.png) no-repeat;
-		display: block;
-		width: 100%;
-		height: 100%;
+	background: url(../img/logo.png) no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 header #contact{
 	float: right;
-	width: 14.583333333333%; /* 140/960px */
+	width: 140px; /* 140/960px */
 	text-align: right;
 }
 
@@ -183,4 +194,24 @@ footer{
 	background-color: #f2eccb;
 	width: 100%;
 	font-size: 12px;
+}
+
+
+
+
+
+/*------------------- below 960 -----------------*/
+@media screen and (max-width: 959px){
+
+
+body{
+	max-width: 900px;
+}
+
+.one-third .column .omega{
+	float: none;
+}
+
+nav li{
+	margin-left: 4.166666666667%; /*40px /960 */
 }
