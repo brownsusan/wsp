@@ -24,7 +24,7 @@
 -------------------------------------------------*/
 
 
-
+/*--------------------------------------- basic styles ------------------------------------*/
 img, iframe{
 	max-width: 100%
 }
@@ -47,6 +47,17 @@ a{
 	text-decoration: none;
 }
 
+a:visited{
+	color: #99c258;
+}
+
+a:hover{
+	color: #b3c29b;
+}
+
+a:active{
+	color: #b3c29b;
+}
 
 /*--- hidden for mobile ---*/
 .mobile_rates{
@@ -57,6 +68,28 @@ a{
 	display: none;
 }
 
+
+.main_img{
+	display: block;
+	margin: 0 auto 40px;
+	max-width: 100%;
+	
+}
+
+header, label, h1, h2, h3, h4, a{
+	font-family: 'Oxygen', helvetica, sans-serif;
+	font-weight: normal;
+}
+
+h2{
+	clear: both;
+	color: #458a33;
+	
+}
+
+h4{
+	color: #2e5c22;
+}
 /*--------------------------------------- nav ------------------------------------*/
 nav ul{
 	list-style: none;
@@ -74,14 +107,6 @@ nav li{
 nav a{
 	display: block;
 	padding: 10px 17%; /*10px 20px/960*/
-}
-
-nav a:visited{
-	color: #99c258;
-}
-
-nav a:active{
-	color: #b3c29b;
 }
 
 
@@ -111,16 +136,6 @@ header #contact{
 header{
 	width: 100%;
 	overflow: hidden;
-}
-
-.main_img{
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
-}
-
-h2{
-	clear: both;
 }
 
 /*--------------------------------------- buttons ------------------------------------*/
