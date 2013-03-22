@@ -257,7 +257,49 @@ header h1, h2, header div, .wrapper{
 	display: block;
 }
 
-header div #contact a{
+table{
 	display: none;
+}
+
+#contact a{
+	display: none;
+}
+
+/*#contact p{
+	float: right;
+	background: url(../img/phone.png) no-repeat;
+	display: block;
+	max-width: 100%;
+	white-space: nowrap;
+	text-indent: -200%;
+}*/
+
+/*-- mobile nav --*/
+header{
+	background: url(../img/black-linen_@2X3.png) repeat-x #f2efdf;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav li{
+	text-align: center;
+}
+ 
+nav a{
+	display: block;
+	padding: 10px 17%; /*10px 20px/960*/
+	max-width: 100%;
+}
+
+.main_img{
+	display: none;
+}
+
+html{
+	background: #f2efdf;
 }
 }
