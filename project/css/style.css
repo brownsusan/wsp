@@ -244,7 +244,7 @@ label{
 	color: #99c258;}
 
 select {
-	width: 90%; }
+	width: 100%; }
 input[type="checkbox"] {
 	display: inline; }
 label span,
@@ -255,6 +255,8 @@ legend span {
 
 fieldset{
 	border: 0;
+	padding: 0;
+	margin: 0;
 }
 
 
