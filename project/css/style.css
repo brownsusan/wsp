@@ -247,11 +247,17 @@ header h1, h2, header div, .wrapper{
 
 
 /*--------------------------------------- below 889 ------------------------------------*/
-@media screen and (max-width: 889px){
+@media only screen and (max-width: 767px){
 
 .mobile.reserve{
 	display: block;
 }
+
+.mobile_rates{
+	display: block;
 }
 
-
+header div #contact a{
+	display: none;
+}
+}
