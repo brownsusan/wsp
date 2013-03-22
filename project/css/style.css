@@ -245,7 +245,13 @@ header h1, h2, header div, .wrapper{
 }
 }
 
-/*
+
+/*--------------------------------------- below 889 ------------------------------------*/
+@media screen and (max-width: 889px){
+
 .mobile.reserve{
 	display: block;
-}*/
+}
+}
+
+
