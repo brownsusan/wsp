@@ -136,7 +136,12 @@ nav a{
 	padding: 10px 17%; /*10px 20px/960*/
 }
 
-
+nav a.current{
+	background-color: #444;
+	color: #b3c29b;
+	border-radius: 4px;
+	text-align: center;
+}
 /*--------------------------------------- header ------------------------------------*/
 h1{
 	clear: both;
