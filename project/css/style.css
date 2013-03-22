@@ -38,6 +38,11 @@ html{
 	background: url(../img/black-linen_@2X3.png) repeat-x #f2efdf;
 }
 
+
+a{
+	color: #99c258;
+	text-decoration: none;
+}
 /*--------------------- nav -------------------*/
 nav ul{
 	list-style: none;
@@ -58,8 +63,6 @@ nav li{
 nav a{
 	display: block;
 	padding: 10px 17%; /*10px 20px/960*/
-	color: #99c258;
-	text-decoration: none;
 }
 
 nav a:visited{
@@ -201,7 +204,7 @@ footer{
 
 
 /*------------------- below 960 -----------------*/
-@media screen and (max-width: 959px){
+@media screen and (max-width: 1300px){
 
 
 body{
@@ -214,5 +217,9 @@ body{
 
 nav li{
 	margin-left: 4.166666666667%; /*40px /960 */
+}
+
+body{
+	
 }
 }
