@@ -36,7 +36,7 @@ body{
 }
 
 html{
-	font: 16px/1.5 georgia, 'Gilda Display', serif;
+	font: 1em/1.5 georgia, 'Gilda Display', serif;
 	color: #333;
 	background: url(../img/black-linen_@2X3.png) repeat-x #f2efdf;
 }
@@ -46,19 +46,29 @@ a{
 	color: #99c258;
 	text-decoration: none;
 }
+
+
+/*--- hidden for mobile ---*/
+.mobile_rates{
+	display: none;
+}
+
+.mobile.reserve{
+	display: none;
+}
+
 /*--------------------------------------- nav ------------------------------------*/
 nav ul{
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
-	max-width: 93.75%;
 	clear: both;
 }
 
 
 nav li{
 	float: left;
-	margin-left: 4.166666666667%; /*40px /960 */
+	/*margin-left: 4.166666666667%; /*40px /960 */
 }
  
 nav a{
@@ -113,7 +123,7 @@ h2{
 	clear: both;
 }
 
-/*--------------------------------------- button ------------------------------------*/
+/*--------------------------------------- buttons ------------------------------------*/
 
 
 
@@ -129,6 +139,13 @@ table{
 td .dates{
 	width: 10px;
 }
+
+.mobile_rates{
+	display: none;
+}
+
+/*--------------------------------------- rates ------------------------------------*/
+
 
 
 /*--------------------------------------- form ------------------------------------*/
@@ -209,22 +226,26 @@ body{
 	float: none;
 }
 
-nav li{
-	margin-left: 3.125%; /*30px /960 */
+/*nav li{
+	margin-left: 3.125%; /*30px /960
+}*/
+
+nav ul{
+	max-width: 100%;
+}
 }
 
-}
 
 
-
-/*--------------------------------------- below 829 ------------------------------------*/
+/*--------------------------------------- below 889 ------------------------------------*/
 @media screen and (max-width: 889px){
 
-header h1, header div{
-	padding: 10px;
+header h1, h2, header div, .wrapper{
+	padding: 0 10px;
+}
 }
 
-nav li{
-	margin-left: 2.583333333333%; /*20px /960 (changed the 5 behind decimal point from 0)*/
-}
-}
+/*
+.mobile.reserve{
+	display: block;
+}*/
