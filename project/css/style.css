@@ -195,13 +195,13 @@ img{
 	max-width: 100%;
 	display: block;
 	padding: 6px;
-	margin: 9px;
+	margin: 13px;
 	float: left;
 	background-color: #fff;
-	box-shadow: 1px 1px 4px 2px #222;
-		-ms-box-shadow: 1px 1px 4px 2px #222;
-		-moz-box-shadow: 1px 1px 4px 2px #222;
-		-webkit-box-shadow: 1px 1px 4px 2px #222;
+	box-shadow: 1px 1px 4px 2px #888;
+		-ms-box-shadow: 1px 1px 4px 2px #888;
+		-moz-box-shadow: 1px 1px 4px 2px #888;
+		-webkit-box-shadow: 1px 1px 4px 2px #888;
 }
 
 .gallery div{
