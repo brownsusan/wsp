@@ -7,7 +7,7 @@
 
 
 
-/*-------------------- color palette---------------
+/*---------------------------------- color palette ------------------------------------------
 			light green: #b3c29b;
 			green: #99c258;
 			dark green: #458a33;
@@ -21,7 +21,31 @@
 			dark off-white: #f2eccb; (footer)
 			light orange: #ffbf75;
 			orange: #ff950d;
--------------------------------------------------*/
+			
+			
+			
+			
+			Main Gradient:	 	background: #ffbf75; 
+								background: -moz-linear-gradient(top,  #ffbf75 25%, #ff950d 80%);
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffbf75), color-stop(80%,#ff950d));
+								background: -webkit-linear-gradient(top,  #ffbf75 25%,#ff950d 80%);
+								background: -o-linear-gradient(top,  #ffbf75 25%,#ff950d 80%);
+								background: -ms-linear-gradient(top,  #ffbf75 25%,#ff950d 80%);
+								background: linear-gradient(to bottom,  #ffbf75 25%,#ff950d 80%);
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbf75', endColorstr='#ff950d',GradientType=0 );
+							
+							
+			Border Gradient:	background: #ffbf75;
+								background: -moz-linear-gradient(left,  #ffbf75 27%, #ff950d 77%);
+								background: -webkit-gradient(linear, left top, right top, color-stop(27%,#ffbf75), color-stop(77%,#ff950d)); 
+								background: -webkit-linear-gradient(left,  #ffbf75 27%,#ff950d 77%); 
+								background: -o-linear-gradient(left,  #ffbf75 27%,#ff950d 77%); 
+								background: -ms-linear-gradient(left,  #ffbf75 27%,#ff950d 77%);
+								background: linear-gradient(to right,  #ffbf75 27%,#ff950d 77%);
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbf75', endColorstr='#ff950d',GradientType=1 );
+---------------------------------- END COLORS ------------------------------------------*/
+
+
 
 
 /*--------------------------------------- basic styles ------------------------------------*/
@@ -87,7 +111,7 @@ h2{
 	
 }
 
-h4{
+h3{
 	color: #2e5c22;
 }
 /*--------------------------------------- nav ------------------------------------*/
@@ -314,6 +338,7 @@ nav a{
 .wrapper img{
 	min-width: 100%;
 }
+
 .main_img{
 	display: none;
 	float: none;
