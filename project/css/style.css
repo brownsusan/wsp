@@ -22,6 +22,7 @@
 			light orange: #ffbf75;
 			orange: #ff950d;
 -------------------------------------------------*/
+
 img, iframe{
 	max-width: 100%
 }
@@ -57,7 +58,7 @@ nav li{
 	margin-left: 4.166666666667%; /*40px /960 */
 }
  nav li:first-child{
-	 margin-left: 0;
+	 margin-left: auto;
  }
  
 nav a{
@@ -83,7 +84,6 @@ h1{
 	width: 249px;
 	height: 72px;
 }
-
 
 h1 a{
 	background: url(../img/logo.png) no-repeat;
@@ -121,10 +121,14 @@ h2{
 
 /*------------------ table --------------------*/
 
+table{
+ 	border-collapse: separate;
+	border-spacing: 10px;
+}
 
-
-
-
+td .dates{
+	width: 10px;
+}
 
 
 /*------------------ form --------------------*/
@@ -175,19 +179,9 @@ legend span {
 	font-size: 13px;
 	color: #444; }
 
-
-fieldset .form{
-	float: right;
-	width: 100%
-}	
-	
-fieldset .msg{
-	float: left;
-	width: 100%
+fieldset{
+	border: 0;
 }
-
-
-
 
 
 /*------------------ footer --------------------*/
@@ -204,7 +198,7 @@ footer{
 
 
 /*------------------- below 960 -----------------*/
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 959px){
 
 
 body{
