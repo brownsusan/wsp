@@ -183,9 +183,24 @@ td .dates{
 	display: none;
 }
 
-/*--------------------------------------- rates ------------------------------------*/
+/*--------------------------------------- gallery ------------------------------------*/
+img{
+	margin: 0;
+	padding: 0;
+}
+.gallery img{
+	max-width: 100%;
+	display: block;
+	padding: 6px;
+	margin: 9px;
+	float: left;
+	background-color: #fff;
+	box-shadow: 1px 1px 4px 2px #222;
+}
 
-
+.gallery div{
+	clear: both;
+}
 
 /*--------------------------------------- form ------------------------------------*/
 form {
@@ -332,11 +347,6 @@ nav a{
 	display: block;
 	padding: 10px 17%; /*10px 20px/960*/
 	max-width: 100%;
-}
-
-
-.wrapper img{
-	min-width: 100%;
 }
 
 .main_img{
