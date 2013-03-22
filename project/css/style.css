@@ -310,8 +310,13 @@ nav a{
 	max-width: 100%;
 }
 
+
+.wrapper img{
+	min-width: 100%;
+}
 .main_img{
 	display: none;
+	float: none;
 }
 
 html{
