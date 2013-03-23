@@ -375,7 +375,7 @@ table{
 	display: none;
 }
 
-#contact p{
+#contact .phone{
 	float: right;
 	background: url(../img/phone.png) no-repeat;
 	background-size: 65px 65px;
