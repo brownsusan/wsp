@@ -379,7 +379,7 @@ table{
 #contact .phone{
 	float: right;
 	background: url(../img/phone.png) no-repeat;
-	background-size: 65px 65px;
+	background-size: 30px 30px;
 	display: block;
 	height: 65px;
 	width: 65px;
