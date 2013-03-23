@@ -180,8 +180,9 @@ header{
 	overflow: hidden;
 }
 
-header p{
-	margin-bottom: 10px;
+.phone{
+	margin: 20px 0;
+	display: block;
 }
 
 /*--------------------------------------- buttons ------------------------------------*/
