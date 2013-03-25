@@ -93,6 +93,9 @@ a:active{
 	color: #b3c29b;
 }
 
+aside .six .columns{
+	border-left: 1px solid #333;
+}
 /*--- hidden for mobile ---*/
 .mobile_rates{
 	display: none;
@@ -140,6 +143,7 @@ nav ul{
 nav li{
 	float: left;
 	/*margin-left: 4.166666666667%; /*40px /960 */
+	font-size: 1.05em;
 }
  
 nav a{
