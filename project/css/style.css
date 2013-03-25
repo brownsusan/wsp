@@ -58,9 +58,9 @@ iframe, small{
 }
 
 iframe{
-		-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.52);
-		-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.52);
-			box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.52);
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.52);
+	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.52);
+		box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.52);
 }
 
 body{
@@ -358,7 +358,7 @@ nav ul{
 @media screen and (max-width: 889px){
 
 header h1, h2, header div, .wrapper{
-	padding: 0 10px;
+	padding: 0 5px;
 }
 }
 
