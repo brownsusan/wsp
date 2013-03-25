@@ -93,17 +93,14 @@ a:active{
 	color: #b3c29b;
 }
 
+
+
+
 aside .six .columns{
 	border-left: 1px solid #333;
 }
-/*--- hidden for mobile ---*/
-.mobile_rates{
-	display: none;
-}
 
-.mobile.reserve{
-	display: none;
-}
+
 /*--- end hidden ---*/
 
 .main_img{
@@ -196,7 +193,7 @@ header{
 }
 
 /*--------------------------------------- buttons ------------------------------------*/
-#cta, #contact_button{
+#cta, #contact_button, .mobile_reserve{
 	background: rgb(252,234,187); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 31%, rgba(248,181,0,1) 68%, rgba(251,223,147,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(31%,rgba(252,205,77,1)), color-stop(68%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
@@ -321,6 +318,14 @@ fieldset{
 	margin: 0;
 }
 
+/*--- hidden for mobile ---*/
+.mobile_rates{
+	display: none;
+}
+
+.mobile_reserve{
+	display: none;
+}
 
 /*--------------------------------------- footer ------------------------------------*/
 
@@ -370,8 +375,9 @@ header h1, h2, header div, .wrapper{
 /*--------------------------------------- below 889 ------------------------------------*/
 @media only screen and (max-width: 767px){
 
-.mobile.reserve{
+.mobile_reserve{
 	display: block;
+	padding: 5px 10px;
 }
 
 .mobile_rates{
@@ -383,6 +389,10 @@ table{
 }
 
 #contact a{
+	display: none;
+}
+
+#cta{
 	display: none;
 }
 
