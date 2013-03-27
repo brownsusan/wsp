@@ -341,7 +341,7 @@ footer{
 
 
 /*--------------------------------------- below 960 ------------------------------------*/
-@media screen and (max-width: 962px){
+@media screen and (max-width: 959px){
 
 
 body{
@@ -406,7 +406,6 @@ table{
 	white-space: nowrap;
 	text-indent: 100%;
 	overflow: hidden;
-}
 }
 
 /*-- mobile nav --*/
