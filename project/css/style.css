@@ -67,6 +67,7 @@ body{
 	max-width: 960px;
 	margin: 0 auto;
 	background: none;
+
 }
 
 html{
@@ -105,34 +106,38 @@ aside .six .columns{
 
 .main_img{
 	display: block;
-	margin: 30px auto 30px;
+	margin: 10px auto 15px;
 	max-width: 100%;
 	-webkit-box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.52);
 		-moz-box-shadow:    0px 4px 10px rgba(50, 50, 50, 0.52);
 			box-shadow:         0px 4px 10px rgba(50, 50, 50, 0.52);
-	
 }
 
 header, label, h1, h2, h3, h4, a{
 	font-family: 'Pontano Sans', helvetica, sans-serif;
 	font-weight: normal;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 h2{
 	clear: both;
 	color: #458a33;
-	font-size: 30px;
-	
+	font-size: 30px;	
 }
 
 h3{
 	color: #2e5c22;
 }
+
+tbody tr:nth-child(odd), tfoot tr:nth-child(odd), .stripe li:nth-child(odd){
+	background-color: #f2eccb;
+}
 /*--------------------------------------- nav ------------------------------------*/
 nav ul{
 	list-style: none;
 	margin: 0 auto;
-	padding: 20px 0 0;
+	padding: 10px 0 0;
 	clear: both;
 }
 
@@ -141,6 +146,7 @@ nav li{
 	float: left;
 	/*margin-left: 4.166666666667%; /*40px /960 */
 	font-size: 1.05em;
+	margin: 0 auto;
 }
  
 nav a{
@@ -150,7 +156,7 @@ nav a{
 
 nav a.current{
 	background-color: #444;
-	border-radius: 4px;
+	border-radius: 2px;
 	text-align: center;
 }
 /*--------------------------------------- header ------------------------------------*/
@@ -194,14 +200,16 @@ header{
 
 /*--------------------------------------- buttons ------------------------------------*/
 #cta, #contact_button, .mobile_reserve{
-	background: rgb(252,234,187); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 31%, rgba(248,181,0,1) 68%, rgba(251,223,147,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(31%,rgba(252,205,77,1)), color-stop(68%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 31%,rgba(248,181,0,1) 68%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 31%,rgba(248,181,0,1) 68%,rgba(251,223,147,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 31%,rgba(248,181,0,1) 68%,rgba(251,223,147,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 31%,rgba(248,181,0,1) 68%,rgba(251,223,147,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+	background: rgb(255,214,94); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,214,94,1) 0%, rgba(254,191,4,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,214,94,1)), color-stop(100%,rgba(254,191,4,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+
+
 
 
 	border-radius: 5px;
@@ -209,6 +217,19 @@ header{
 	max-width: 100%;
 	text-align: center;
 	color: #333;
+}
+
+#cta:hover, #contact_button:hover, .mobile_reserve:hover{
+	-webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.52);
+	-moz-box-shadow:    0px 1px 4px rgba(50, 50, 50, 0.52);
+	box-shadow:         0px 1px 4px rgba(50, 50, 50, 0.52);
+}
+
+#cta:active, #contact_button:active, .mobile_reserve:active{
+  background: rgba(254,191,4,1);
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.8);
+  border-color: #354d1d #425f24 #4f722b;
 }
 
 #cta{
@@ -221,17 +242,19 @@ header{
 }
 
 
-
+input[type="submit"]{
+	background-color: rgba(254,191,4,1);
+	width: 100%
+}
 
 /*--------------------------------------- table ------------------------------------*/
 
 table{
  	border-collapse: separate;
-	border-spacing: 10px;
 }
 
-td .dates{
-	width: 10px;
+td {
+	padding: 0 10px;
 }
 
 .mobile_rates{
@@ -277,11 +300,11 @@ select {
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-	font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	color: #333;
 	margin: 0;
-	width: 95%;
-	max-width: 100%;
+	width: 100%;
+	max-width: 95%;
 	display: block;
 	margin-bottom: 20px;
 	background: #fff; }
@@ -331,9 +354,9 @@ fieldset{
 
 footer{
 	clear: both;
-	background-color: #f2eccb;
 	width: 100%;
 	font-size: 12px;
+	text-align: center;
 }
 
 
