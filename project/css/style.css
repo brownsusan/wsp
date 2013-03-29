@@ -116,7 +116,6 @@ aside .six .columns{
 header, label, h1, h2, h3, h4, a{
 	font-family: 'Pontano Sans', helvetica, sans-serif;
 	font-weight: normal;
-	margin-bottom: 5px;
 	margin-top: 5px;
 }
 
@@ -129,6 +128,14 @@ h2{
 
 h3{
 	color: #2e5c22;
+}
+
+h4{
+	margin-bottom: 0;
+}
+
+p{
+	margin-top: 5px;
 }
 
 tbody tr:nth-child(odd), tfoot tr:nth-child(odd), .stripe li:nth-child(odd){
